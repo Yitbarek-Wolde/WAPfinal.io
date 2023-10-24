@@ -20,22 +20,22 @@ html,body{
 }
 
 .divOne { 
+
     border-radius: 20px;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    max-height: 400px;
-    max-width: 330px;
+
+    max-width: 80%;
     padding: 5px;
     margin: 0 auto;
     background: rgb(0, 0, 0, 0.3);
     color: rgb(245, 245, 245);
+    overflow: hidden;
 }
 
 .divTwo {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
+    
+   
     font-size: larger;
    
 }
@@ -55,10 +55,14 @@ html,body{
 }
 
 .divFour {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3%;
+    padding: 3%;
+   
+    
 }
 
 .buttonStyle{
@@ -75,8 +79,9 @@ html,body{
 .containerFlex{
     display: flex;
     flex-direction: row;
-    height: 100%;
-    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    max-height: fit-content;  
 }
 #text2{
     border:1px;
