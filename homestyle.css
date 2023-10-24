@@ -1,64 +1,66 @@
-.navcontainer{
-    
-    margin-top: -0.5%;  
+.imgclass {
+    display: flex;
 }
-.searchimg{
-    width:8%
+
+.navcontainer {
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    width: 100%;
+    max-height: 1%;
 }
-.heartimg{
-    width:8%;   
+
+.searchimg {
+    min-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
 }
-.cartimg{
-    width:8%;
+
+.heartimg {
+    min-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
 }
-.topnav{
-   
-    padding:1%;
-    width:100%;
+
+.cartimg {
+    min-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+.topnav {
+    padding: 1%;
+    width: 100%;
     text-align: center;
     font-size: medium;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: black;
-    color:white
-}
-.middlenav{
-    display:flex;
-    grid-template-columns: 0.2fr 6fr 3fr;
-    border-bottom:1px solid black;
-    width:100%;
-   gap:20%;
-}
-.lowernav{
-border:1px solid black;
-text-align: center;
-width:100%;
-background-color: rgb(193, 196, 199);
+    color: white;
 }
 
-.middleleftnav{
-margin-left:4%
-}
-.middlecenternav{
-    margin-left: 10%;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap:50%;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: large;
-   font-weight: bold;
-   margin-top: 1%;
-}
-.middlerightnav{
-display:flex;
-flex-direction: row;
-justify-content: center;
+.lowernav {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(193, 196, 199);
 }
 
-.searchbar{
-    border-radius: 50px;
-    width:40%;
-    height:40%;
-    margin-top:3%;
-   margin-left:40%;
-   background-color: rgb(234, 236, 238);
+.logoContainer {
+    display: inline-block;
+}
+
+.CatagoryNav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.searchbar {
+    margin-top: 3%;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(234, 236, 238);
 }
