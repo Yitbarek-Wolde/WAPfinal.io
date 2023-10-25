@@ -25,3 +25,7 @@ function NavFuction() {
       x.className = "topnav";
     }
   }
+
+  function SignUp(){
+    //added code later
+  }
