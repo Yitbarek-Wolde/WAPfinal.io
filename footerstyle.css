@@ -1,0 +1,58 @@
+.footerContainer{
+display: flex;
+flex-direction: column;
+border:1px solid black;
+background-color: black;
+justify-content: flex-end;
+position: absolute;
+bottom: 0;
+width:100%; 
+}
+.Innerfooter{
+    display:grid;
+    width:100%;
+    grid-template-columns: 30% 30% 15% ;
+    justify-content: space-evenly;
+
+}
+.SignupFooter{
+color:white;
+
+font-family:'Times New Roman', Times, serif;
+}
+.FooterSearchBar{
+    display:flex;
+    flex-direction: row;
+    height:15%;
+}
+.footerimages{
+    display: flex;
+    gap:10%;
+    flex-direction: row;
+   
+}
+img{
+    width:60%;
+     height:50%;
+}
+
+.customerSupport{
+    color:white;
+}
+
+.customer2columns{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.customerfirstcolumns{
+    display:flex;
+    flex-direction: column;
+    gap:20%;
+}
+
+.AboutUs{
+    color:white;
+    display:block;
+    
+}

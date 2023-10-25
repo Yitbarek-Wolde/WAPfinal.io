@@ -6,46 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
 </head>
+
 <link href="homestyle.css" rel="stylesheet">
 
+
 <body>
+  <div class="overallContainer">
   <div class="topnav">
-      <label>Free Standard shipping and Returns for All YS Members</label>
-    </div>
+    <label>Free Standard shipping and Returns for All YS Members</label>
+  </div>
   <div class="navcontainer">
-    
-      <div class="logoContainer">
-        <svg width="100px" height="50px" >
-          <line x1="3" y1="5" x2="25" y2="20" style="stroke:black;stroke-width:5px"/>
-          <line x1="50" y1="5" x2="25" y2="20" style="stroke:black;stroke-width:5px"/>
-          <line x1="25" y1="20" x2="25" y2="90" style="stroke:black;stroke-width:5px"/>
-          <line x1="90" y1="10" x2="50" y2="20" style="stroke:black;stroke-width:5px"/>
-          <line x1="50" y1="20" x2="80" y2="30" style="stroke:black;stroke-width:5px"/>
-          <line x1="80" y1="30" x2="27" y2="60" style="stroke:black;stroke-width:5px"/>
-        </svg>
+
+    <div class="logoContainer">
+      <svg width="100px" height="50px">
+        <line x1="3" y1="5" x2="25" y2="20" style="stroke:black;stroke-width:5px" />
+        <line x1="50" y1="5" x2="25" y2="20" style="stroke:black;stroke-width:5px" />
+        <line x1="25" y1="20" x2="25" y2="90" style="stroke:black;stroke-width:5px" />
+        <line x1="90" y1="10" x2="50" y2="20" style="stroke:black;stroke-width:5px" />
+        <line x1="50" y1="20" x2="80" y2="30" style="stroke:black;stroke-width:5px" />
+        <line x1="80" y1="30" x2="27" y2="60" style="stroke:black;stroke-width:5px" />
+      </svg>
     </div>
 
-      <div class="CatagoryNav">
-        <a href="#Men">Men</a>
-        <a href="#Men">Women</a>
-        <a href="#Men">Kids</a>
-        <a href="#Men">SALE</a>
-        <a href="#Men">Members Only</a>
-      </div>
+    <div class="CatagoryNav">
+      <a class="LinkStyle" href="#Men">Men</a>
+      <a class="LinkStyle" href="#Men">Women</a>
+      <a class="LinkStyle" href="#Men">Kids</a>
+      <a class="LinkStyle" href="#Men">SALE</a>
+      <a class="LinkStyle" href="#Men">Members Only</a>
+    </div>
 
-      <div class="imgclass">
-        <input class="searchbar" type="textbox" placeholder="Search">
-        <a href="www.google.com"><img class="searchimg" src="sEARCH LOGO.png"></a>
-        <a href="www.google.com"><img class="heartimg" src="HEART LOGO.png"></a>
-        <a href="www.google.com"><img class="cartimg" src="CART LOGO.jpeg"></a>
-      </div>
-    
-
+    <div class="imgclass">
+      <input class="searchbar" type="textbox" placeholder="Search">
+      <button onclick="Search()" id="Search" class="navbuttons"><img class="searchimg" src="sEARCH LOGO.png"></button>
+      <button onclick="WishList()" id="WishList" class="navbuttons"><img class="heartimg" src="HEART LOGO.png"></button>
+      <button onclick="DisplayCart()" id="DisplayCart" class="navbuttons"><img class="cartimg" src="CART LOGO.jpeg"></button>
+    </div>
   </div>
   <div class="lowernav">
     <label>Up to 65% OFF with Code: YS2023</label>
   </div>
-
+  
+</div>
+</div>
+<div class="footerContainer">
+       
+</div>
 </body>
 
 </html>
