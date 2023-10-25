@@ -6,7 +6,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-image: url(background.jpeg);
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em black;
+    text-shadow: 1px 1px 2px rgb(115, 57, 57), 0 0 1em blue, 0 0 0.2em black;
     text-decoration-color: red;
 }
 
@@ -28,7 +28,7 @@ html,body{
     max-width: 330px;
     padding: 5px;
     margin: 0 auto;
-    background: rgb(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     color: rgb(245, 245, 245);
 }
 
@@ -54,7 +54,7 @@ html,body{
     
 }
 
-.divFour {
+.divFour{
     display: flex;
     justify-content: center;
     flex-direction: column;
