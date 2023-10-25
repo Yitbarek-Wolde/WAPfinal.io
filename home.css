@@ -21,10 +21,12 @@
 
 }
 
-.searchimg {
-    min-width: 50px;
-    max-height: 50px;
+.searchimg{
+    min-width: 30px;
+    max-height: 30px;
     object-fit: cover;
+    bottom: 0%;
+    border: none;
 }
 
 .heartimg {
@@ -88,12 +90,28 @@
     font-weight: bold;
     margin-top: 1%;
 }
+.SearchBarDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.SearchButton{
+    height: 38px;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.SearchButton:hover{
+    background-color: #888888;
 
-.searchbar {
-    margin-top: 3%;
+}
+.searchbar{
     border-radius: 20px;
-    width: 160px;
-    height: 50%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    max-height: 70%;
+    width: 70%;
     background-color: rgb(234, 236, 238);
 }
 
