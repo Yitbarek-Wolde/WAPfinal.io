@@ -132,8 +132,23 @@
 
 
 /* body css*/
-
+#kidsDiv{
+    display: none;
+}
+#MembersOnlyDiv{
+    display: none;
+}
+#MenDiv{
+    display: none;
+}
+#SaleDiv{
+    display: none;
+}
+#WomenDiv{
+    display: none;
+}
 #GameStartandStop{
+ 
     border: none;
     background-color: transparent;
     font-family: cursive;

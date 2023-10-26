@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,9 +30,10 @@
       </div>
 
       <div class="CatagoryNav">
+        <a class="LinkStyle" href="home.html">Home</a>
         <a class="LinkStyle" href="Men.html">Men</a>
         <a class="LinkStyle" href="Women.html">Women</a>
-        <a class="LinkStyle" href="home.html">Kids</a>
+        <a class="LinkStyle" href="kids.html">Kids</a>
         <a class="LinkStyle" href="Sale.html">SALE</a>
         <a class="LinkStyle" href="MembersOnly.html">Members Only</a>
       </div>
@@ -54,168 +54,220 @@
       </div>
     </div>
     <div class="lowernav">
-      <label>Up to 65% OFF with Code: YS2023</label>
+      <label>Up to 65% OFF if you win! <input style="margin-bottom: 4px;" type="button" id="GameStartandStop"
+          onclick="playGame()" value="Click here to play!" /></label>
     </div>
 
   </div>
 
 
   <!-- Body Html -->
+  <div class="gameDiv" id="GameDiv" style="display: none; text-align: center;">
 
-  <div class="divSlider">
-    <div class="Images&Paras">
-      <div class="con">
-        <div class="SliderContainer">
-          <div class="imagecoll">
-            <img src="images/Bodyimg1.jpeg" Width="300px" height="400px">
-            <img src="images/Bodyimg2.jpeg" Width="300px" height="400px">
-            <img src="images/bodyimg3.webp" Width="300px" height="400px">
-            <img src="images/bodyimg4.jpg" Width="300px" height="400px">
-            <img src="images/bodyimg5.webp" Width="300px" height="400px">
-            <img src="images/bodyimg8.jpeg" Width="300px" height="400px">
+    <p id="gameMessage"> use arrow keys on your keyboard to play</p>
+  </div>
+
+  <!--Sale-->
+
+  <div id="SaleDiv">
+    <div class="OverallContainer">
+  
+      <div class="ContentContainerContainer">
+        <div class="ContentContainer">
+  
+  
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/A/1.jpeg" name="YSFASHION/Sale/A/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
           </div>
-        </div>
-      </div>
-      <div class="textbox1">
-        <div class="ParaContainer">
-          <div class="topheader">YS Chic Collections</div>
-
-          <p class="firsttextline">Every week, we will be offering a curated group of coveted gifts at early Black
-            Friday prices. This week’s spotlight styles? The Jet Set tote for $89 and the Cooper Logo Stripe backpack
-            for $139.</p>
-
-          <p class="secondtextline">Shop Men's New Arrivals</p>
-          <p class="thirdtextline">Shop Gifts for Him</p>
-        </div>
-      </div>
-      <div class="OneImageContainer">
-        <div class="LargeImageContained">
-          <img src="images/bodyimg9.jpeg" width="1000px" height="700px">
-        </div>
-      </div>
-      <div class="textbox2">
-        <div class="Para2Container">
-          <div class="top2header">Mirror,Mirror</div>
-          <p class="Para2TextLine">Prepare for the upcoming party season with trending high-shine pieces. Hint: They
-            also make great gifts.</p>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/B/1.jpeg" name="YSFASHION/Sale/B/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/C/1.jpeg" name="YSFASHION/Sale/C/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/D/1.jpeg" name="YSFASHION/Sale/D/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/E/1.jpeg" name="YSFASHION/Sale/E/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/F/1.jpeg" name="YSFASHION/Sale/F/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+  
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/G/1.jpeg" name="YSFASHION/Sale/G/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+  
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/H/1.jpeg" name="YSFASHION/Sale/H/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+  
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/I/1.jpeg" name="YSFASHION/Sale/I/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/J/1.jpeg" name="YSFASHION/Sale/J/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/K/1.jpeg" name="YSFASHION/Sale/K/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
+          <div class="InsideContentDiv">
+            <img src="YSFASHION/Sale/L/1.jpeg" name="YSFASHION/Sale/L/1.jpeg" class="contentImg" />
+            <div class="PicChangeDiv">
+              <button onclick="PerviousPicture()" class="PicChange"> Back </button>
+              <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+            </div>
+            <p>dress</p>
+            <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+          </div>
         </div>
       </div>
     </div>
-</div>
-  <div class="OverallContainer">
-
-    <div class="ContentContainerContainer">
-      <div class="ContentContainer">
+  </div> 
 
 
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/A/1.jpeg" name="YSFASHION/Sale/A/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/B/1.jpeg" name="YSFASHION/Sale/B/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/C/1.jpeg" name="YSFASHION/Sale/C/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/D/1.jpeg" name="YSFASHION/Sale/D/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/E/1.jpeg" name="YSFASHION/Sale/E/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/F/1.jpeg" name="YSFASHION/Sale/F/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
 
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/G/1.jpeg" name="YSFASHION/Sale/G/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
+  <!--Footer html-->
 
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/H/1.jpeg" name="YSFASHION/Sale/H/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
+  <footer class="footerContainer">
+    <div class="Innerfooter">
+      <div class="SignupFooter">
+        <h2 style="border-bottom: 1px solid; text-align: center;">DON'T MISS OUT</h2>
 
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/I/1.jpeg" name="YSFASHION/Sale/I/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+        <p>UNLOCK 20% OFF* Sign up and we'll keep you updated with the latest collections,exclusive offers and
+          promotions(both online and in store).</p>
+        <hr>
+        <div class="FooterSearchBar"><input type="textbox" placeholder="ENTER YOUR EMAIL">
+          <input type="button" class="footerSignup" value="Sign Up">
         </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/J/1.jpeg" name="YSFASHION/Sale/J/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
-          </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
+        <h3>STAY CONNECTED</h3>
+        <hr>
+        <div class="footerimages">
+          <a href="google.com"><img class="footerSocailImg" src="images/pinterest logo.png"></a>
+          <a href="google.com"><img class="footerSocailImg" src="images/instagramlogo.png"></a>
+          <a href="google.com"><img class="footerSocailImg" src="images/youtubelogo.png"></a>
+          <a href="google.com"><img class="footerSocailImg" src="images/facebook logo .png"></a>
         </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/K/1.jpeg" name="YSFASHION/Sale/K/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+      </div>
+      <div class="customerSupport">
+        <h2 style="border-bottom: 1px solid; text-align: center;">CUSTOMER SUPPORT</h2>
+
+        <div class="customer2columns">
+          <div class="customerfirstcolumns">
+            <p>1.8666.YS-2023</p>
+
+            <p>Track Order</p>
+
+            <p>Order Status & History</p>
+
+            <p>Shipping Information</p>
+
+            <p>Store Locator</p>
+
+            <p>Return Policy</p>
+
           </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
-        </div>
-        <div class="InsideContentDiv">
-          <img src="YSFASHION/Sale/L/1.jpeg" name="YSFASHION/Sale/L/1.jpeg" class="contentImg" />
-          <div class="PicChangeDiv">
-            <button onclick="PerviousPicture()" class="PicChange"> Back </button>
-            <button onclick="NextPicture()" class="PicChangeN"> Next </button>
+          <div class="customerfirstcolumns">
+            <p>All stores</p>
+
+            <p>Interational</p>
+
+            <p>Klarna</p>
+
+            <p>FAQS</p>
+
+            <p>Fraud FAQS</p>
+
+            <p>Contact Us</p>
           </div>
-          <p>dress</p>
-          <button onclick="AddToCart()" class="AddToChartbutton">Add to Cart</button>
         </div>
+      </div>
+      <div class="AboutUs">
+        <h2 style="border-bottom: 1px solid; text-align: center;">ABOUT US</h2>
+
+        <p>Jobs</p>
+
+        <p>Ambassador Program</p>
+
+        <p>Foundation</p>
+
+        <p>Diversity & Inclusion</p>
+
+        <p>Privacy Policy</p>
+
+        <p>Website Terms of Use</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

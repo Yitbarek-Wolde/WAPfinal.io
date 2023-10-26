@@ -239,3 +239,4 @@ function playGame() {
     });
     requestAnimationFrame(loop);
    }
+
