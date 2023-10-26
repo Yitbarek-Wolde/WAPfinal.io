@@ -548,3 +548,63 @@
     }
   
   }
+
+  
+@media only screen and (max-width: 562px) {
+    .topnav {
+      padding: 1px;
+    }
+  
+    .navcontainer {
+      flex-direction: column;
+      text-align: center;
+    }
+    .logoContainer{
+      margin-left: 40px;
+    }
+    .CatagoryNav {
+      flex-direction: column;
+      margin-top: 70%;
+      gap:10%
+    }
+  
+    .imgclass {
+      flex-direction: column;
+      margin-top: 50%; 
+    }
+    .lowernav{
+      margin-top: 20%;
+    }
+    .imagecoll {
+      flex-direction: column;
+    }
+  
+    .imagecoll img {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width:200px;
+    }
+  
+  .LargeImageContained img{
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width:200px;
+  
+  }
+  .top2header{
+    font-size: x-large;
+  }
+  .Innerfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ContentContainer{
+display: flex;
+flex-direction: column;
+overflow-y: scroll;
+}
+  }
