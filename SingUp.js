@@ -1,30 +1,4 @@
-function Loginsubmit() {
 
-  let firstinput = document.getElementById("inputEmail")
-
-  let secondinput = document.getElementById("inputPassword")
-
-  let forminput = document.querySelector('form')
-
-  if (firstinput.value == "sem" && secondinput.value == "pass11") {
-
-    window.location.href = "home.html"
-  }
-
-  else {
-    alert("Access Denied")
-  }
-
-}
-
-function NavFuction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 
 function SignUp() {
   //added code later
@@ -33,6 +7,10 @@ function SignUp() {
   let passwordOne = document.getElementById("inputPasswordOne").value
   let passwordTwo = document.getElementById("inputPasswordTwo").value
   let EmailOne = document.getElementById("inputEmailOne").value
+  document.getElementById("inputfirstname").style.border = ''
+  document.getElementById("inputsecondname").style.border = ''
+  document.getElementById("inputEmailOne").style.border = ''
+  document.getElementById("inputPasswordOne").style.border = ''
   if (firstname.length < 1)
     document.getElementById("inputfirstname").style.border = '3px solid red'
   if (secondname.length < 1)
@@ -48,6 +26,9 @@ function SignUp() {
     document.getElementById("inputPasswordTwo").style.border = '3px solid red'
     alert('Passwords do not match!')
   }
-  if ((firstname.length > 1 && secondname.length > 1) && (passwordOne == passwordTwo) && (EmailOne.length > 1))
-    window.location.href = "home.html"
+  if ((firstname.length > 1 && secondname.length > 1) && (passwordOne == passwordTwo) && (EmailOne.length > 1)) {
+    localStorage.setItem('name', EmailOne);
+    localStorage.setItem('pw', passwordOne);
+    window.location.href = "login.html"
+  }
 }

@@ -60,6 +60,13 @@
     color: black;
 }
 
+.LinkStyle:active {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(252, 2, 2);
+    border: 2px solid black;
+}
+
 .LinkStyle:hover {
     color: chocolate;
     font-size: larger;
@@ -125,6 +132,37 @@
 
 
 /* body css*/
+
+#GameStartandStop{
+    border: none;
+    background-color: transparent;
+    font-family: cursive;
+    color:rgb(0, 254, 51)
+}
+#GameStartandStop:hover{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0, 0.3);
+    font-family: cursive;
+    color: yellow;
+    font-size: larger;
+}
+#GameStartandStop:active{
+    border: none;
+    border-radius: 10px;
+    background-color: yellow;
+    font-family: cursive;
+    color: red;
+    font-size: small;
+}
+#gameMessage{
+    /* P style for game*/
+    display: block;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: cursive;
+}
+
 .combineDiv {
     display: flex;
     flex-direction: column;
@@ -135,8 +173,6 @@
 .OverallContainer {
     display: grid;
     font-family: cursive;
-   
-   
 }
 
 .ContentContainerContainer {
