@@ -120,11 +120,116 @@ color: black;
 .con{
     display: flex;
     max-width: 100%;
+    justify-content: center;
+  }
+  .SliderContainer{
+    display: grid;
+    max-width: 95%;
+    justify-content: center;
+    
   }
   .imagecoll {
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     overflow-x: scroll;
     gap: 8%;
-    padding-left: 30%;
+    padding-left: 50%;
+  }
+  .textbox1{
+    display:flex;
+    justify-content: center;
+  }
+
+  .topheader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+    font-size:xxx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    width:100%;
+  }
+  .firsttextline{
+   max-width:100%;
+    text-align: center;
+    
+    font-size: x-large;
+    
+  }
+
+  .ParaContainer{
+    width:45%;
+    text-align: center;
+  }
+  .secondtextline{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .thirdtextline{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .OneImageContainer{
+    display:flex;
+    justify-content: center;
+    margin-top: 3%;
+  }
+  .LargeImageContained{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .textbox2{
+    display:flex;
+    justify-content: center;
+  }
+  .Para2Container{
+    width:45%;
+    text-align: center;
+  }
+  .top2header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+    font-size:xxx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    width:100%;
+  }
+
+.Para2TextLine{
+    font-size: xx-large;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and(max-width:640px){
+    .navcontainer{
+        position:relative;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 200%;
+    }
+
+    .CatagoryNav{
+        display: flex;
+        flex-direction: column;
+        max-width: 125%;
+    }
+    .logoContainer{
+       float:left;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .imgclass{
+        display: flex;
+        flex-direction: column;
+        max-width: 150%;
+    }
+  
   }
