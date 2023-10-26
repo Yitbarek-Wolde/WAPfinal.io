@@ -135,6 +135,7 @@
 .OverallContainer {
     display: grid;
     font-family: cursive;
+   
 }
 
 .ContentContainerContainer {
@@ -149,6 +150,14 @@
 }
 
 .PicChange {
+    border-radius: 20px;
+    font-size: x-small;
+    background-color: transparent;
+    color: rgb(0, 8, 249);
+    font-weight: bolder;
+    border: none;
+}
+.PicChangeN {
     border-radius: 20px;
     font-size: x-small;
     background-color: transparent;
@@ -171,6 +180,14 @@
     border: none;
 }
 
+.PicChangeN:hover {
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: rgb(6, 14, 240, 0.3);
+    color: rgb(255, 0, 0);
+    border: none;
+}
 .PicChange:active {
     border-radius: 20px;
     font-size: smaller;
@@ -178,8 +195,21 @@
     color: rgb(199, 254, 0);
     border: none;
 }
-
+.PicChangeN:active {
+    border-radius: 20px;
+    font-size: smaller;
+    background-color: transparent;
+    color: rgb(199, 254, 0);
+    border: none;
+}
 .PicChange:checked {
+    border-radius: 20px;
+    font-size: smaller;
+    background-color: transparent;
+    color: rgb(0, 254, 51);
+    border: none;
+}
+.PicChangeN:checked {
     border-radius: 20px;
     font-size: smaller;
     background-color: transparent;
