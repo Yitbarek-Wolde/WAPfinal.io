@@ -232,4 +232,24 @@ color: black;
   .lowernav{
     margin-top: 20%;
   }
+  .imagecoll {
+    flex-direction: column;
+  }
+
+  .imagecoll img {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width:200px;
+  }
+
+.LargeImageContained img{
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 10px;
+  width:200px;
+
+}
+.top2header{
+  font-size: x-large;
+}
 }
